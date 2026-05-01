@@ -82,17 +82,6 @@ Go = "Tool Development"
 
 ---
 
-## GitHub Stats
-
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=pelioro&show_icons=true&theme=radical&hide_border=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=pelioro&layout=compact&theme=radical&hide_border=true)
-
-</div>
-
----
-
 ## Bug Bounty Achievements
 
 - Multiple valid reports on HackerOne - this shit pays
@@ -131,3 +120,4 @@ Go = "Tool Development"
 ![Visitor Count](https://profile-counter.glitch.me/pelioro/count.svg)
 
 </div>
+y
