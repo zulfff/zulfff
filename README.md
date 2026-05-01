@@ -29,7 +29,7 @@ Security researcher who loves finding vulnerabilities in web apps, APIs, and cry
 **Integer Underflow in wolfSSL X.509 SAN Parsing**
 
 - **CWE**: CWE-191 (Integer Underflow)
-- **CVSS Score**: 4.0 (Low)
+- **CVSS Score**: 8.1 (high)
 - **Description**: An integer underflow issue exists in wolfSSL when parsing the Subject Alternative Name (SAN) extension of X.509 certificates. A malformed certificate can specify an entry length larger than the enclosing sequence, causing the internal length counter to wrap during parsing.
 - **Impact**: Incorrect handling of certificate data in configurations using the original ASN.1 parsing implementation
 - **References**: 
