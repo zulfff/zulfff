@@ -1,123 +1,152 @@
 <div align="center">
-
-# Muhammad Arya Arjuna Habibullah
-
-**Security Researcher | Bug Bounty Hunter | Vulnerability Finder**
-
-[![HackerOne](https://img.shields.io/badge/HackerOne-pelioro-red?style=for-the-badge&logo=hackerone)](https://hackerone.com/pelioro)
-[![Bugcrowd](https://img.shields.io/badge/Bugcrowd-JustAKids-blue?style=for-the-badge&logo=bugcrowd)](https://bugcrowd.com/JustAKids)
-[![Intigriti](https://img.shields.io/badge/Intigriti-zulfff-purple?style=for-the-badge&logo=intigriti)](https://intigriti.com/zulfff)
-
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Muhammad%20Arya%20Arjuna%20Habibullah&fontSize=36&fontAlignY=35&animation=fadeIn&desc=Security%20Researcher%20•%20Bug%20Bounty%20Hunter%20•%20CVE%20Finder&descAlignY=55" width="100%"/>
 </div>
 
----
-
-## About Me
-
-Security researcher who loves finding vulnerabilities in web apps, APIs, and cryptography. I fucking love digging into code to uncover bugs that could impact millions of users. Not just finding bugs, but also learning how to fucking break systems in cool ways.
-
-- **Specializations**: Web Security, Cryptography, Binary Analysis
-- **Based**: Indonesia
-- **Active Platforms**: HackerOne, Bugcrowd, Intigriti
-- **Learning**: Always exploring new attack vectors and defense mechanisms, idgaf how hard it gets
+<p align="center">
+  <a href="https://hackerone.com/pelioro"><img src="https://img.shields.io/badge/HackerOne-pelioro-red?style=for-the-badge&logo=hackerone"/></a>
+  <a href="https://bugcrowd.com/JustAKids"><img src="https://img.shields.io/badge/Bugcrowd-JustAKids-blue?style=for-the-badge&logo=bugcrowd"/></a>
+  <a href="https://intigriti.com/zulfff"><img src="https://img.shields.io/badge/Intigriti-zulfff-purple?style=for-the-badge&logo=intigriti"/></a>
+  <a href="https://twitter.com/XDevTools"><img src="https://img.shields.io/badge/@pelioro-1DA1F2?style=for-the-badge&logo=x&logoColor=white"/></a>
+</p>
 
 ---
 
-## CVE Discoveries - This shit is real
+## 🏆 CVE Discoveries
 
-### CVE-2026-5188
-**Integer Underflow in wolfSSL X.509 SAN Parsing**
+| CVE | Product | Type | Severity |
+|:----|:--------|:-----|:---------|
+| [CVE-2026-5188](https://nvd.nist.gov/vuln/detail/CVE-2026-5188) | wolfSSL X.509 SAN parser | Integer Underflow | 🟠 **8.1 High** |
+| [CVE-2026-3229](https://nvd.nist.gov/vuln/detail/CVE-2026-3229) | wolfSSL add_to_chain | Heap Buffer Overflow | 🟡 **5.5 Medium** |
 
-- **CWE**: CWE-191 (Integer Underflow)
-- **CVSS Score**: 8.1 (high)
-- **Description**: An integer underflow issue exists in wolfSSL when parsing the Subject Alternative Name (SAN) extension of X.509 certificates. A malformed certificate can specify an entry length larger than the enclosing sequence, causing the internal length counter to wrap during parsing.
-- **Impact**: Incorrect handling of certificate data in configurations using the original ASN.1 parsing implementation
-- **References**: 
-  - [NVD](https://nvd.nist.gov/vuln/detail/CVE-2026-5188)
-  - [CVE.org](https://www.cve.org/CVERecord?id=CVE-2026-5188)
-  - [wolfSSL PR](https://github.com/wolfSSL/wolfssl/pull/10024)
-
-### CVE-2026-3229
-**Integer Overflow in wolfSSL wolfssl_add_to_chain**
-
-- **CWE**: CWE-122 (Heap-based Buffer Overflow)
-- **CVSS Score**: 5.5 (Medium)
-- **Description**: An integer overflow vulnerability existed in the static function wolfssl_add_to_chain, that caused heap corruption when certificate data was written out of bounds of an insufficiently sized certificate buffer. The function is called by wolfSSL_CTX_add_extra_chain_cert, wolfSSL_CTX_add1_chain_cert, and wolfSSL_add0_chain_cert APIs. These APIs are enabled for 3rd party compatibility features: enable-opensslall, enable-opensslextra, enable-lighty, enable-stunnel, enable-nginx, enable-haproxy.
-- **Impact**: Heap corruption leading to potential code execution in compromised application contexts
-- **References**:
-  - [NVD](https://nvd.nist.gov/vuln/detail/CVE-2026-3229)
-  - [wolfSSL PR](https://github.com/wolfSSL/wolfssl/pull/9827)
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Patched%20by%20wolfSSL-brightgreen?style=flat-square"/>
+  <img src="https://img.shields.io/badge/CVEs-2026-blue?style=flat-square"/>
+</p>
 
 ---
 
-## Skills & Technologies - Tools I fucking use
+## 📊 GitHub Analytics
 
-### Security Research
-- Web Application Security
-- API Security Testing
-- Cryptography Analysis
-- Binary Exploitation
-- Reverse Engineering
+<p align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=zulfff&show_icons=true&theme=radical&include_all_commits=true&count_private=true&border_radius=10"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=zulfff&layout=compact&langs_count=8&theme=radical&border_radius=10"/>
+</p>
 
-### Tools & Frameworks
-- ffuf (fuzzing)
-- nuclei (vulnerability scanning)
-- subfinder (subdomain enumeration)
-- httpx (HTTP toolkit)
-- amass (OSINT)
-- ghidra (reverse engineering)
-- radare2 (binary analysis)
-- pwntools (exploitation)
-- bloodhound (AD security)
-- crackmapexec (pentesting)
-- impacket (protocol attacks)
-
-### Programming Languages
-```python
-Python = "Primary"
-JavaScript = "Web Security"
-C/C++ = "Binary Analysis"
-Go = "Tool Development"
-```
+<p align="center">
+  <img width="90%" src="https://github-readme-streak-stats.herokuapp.com/?user=zulfff&theme=radical&hide_border=false&border_radius=10"/>
+</p>
 
 ---
 
-## Bug Bounty Achievements
+## 🛠️ Arsenal
 
-- Multiple valid reports on HackerOne - this shit pays
-- Recognized researcher on Bugcrowd - yeah, I'm that good
-- Active contributor on Intigriti - always hunting
-- CVE Finder (2026) - found 2 CVEs in wolfSSL, fuck yeah
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=go,rust,python,js,ts,c,cpp,html,css,react,nodejs,express,redis,docker,kubernetes,linux,bash,git,github,neovim&perline=10"/>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/ffuf-000?style=flat-square&logo=ffuf"/>
+  <img src="https://img.shields.io/badge/nuclei-000?style=flat-square&logo=projectdiscovery"/>
+  <img src="https://img.shields.io/badge/amass-000?style=flat-square&logo=owasp"/>
+  <img src="https://img.shields.io/badge/ghidra-000?style=flat-square&logo=ghidra"/>
+  <img src="https://img.shields.io/badge/radare2-000?style=flat-square&logo=radare2"/>
+  <img src="https://img.shields.io/badge/bloodhound-000?style=flat-square"/>
+  <img src="https://img.shields.io/badge/impacket-000?style=flat-square"/>
+</p>
 
 ---
 
-## Contact
+## 📈 Activity Graph
+
+<p align="center">
+  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=zulfff&theme=radical&bg_color=141321&hide_border=true&area=true&custom_title=Contribution%20Graph"/>
+</p>
+
+---
+
+## 🏅 Trophies
+
+<p align="center">
+  <img width="95%" src="https://github-profile-trophy.vercel.app/?username=zulfff&theme=radical&no-frame=true&no-bg=true&row=2&column=4"/>
+</p>
+
+---
+
+## 🚀 Featured Projects
+
+<table>
+  <tr>
+    <td width="50%">
+      <h3 align="center">FortressWAF</h3>
+      <p align="center">
+        <a href="https://github.com/FortressCommunity/fortress-ws" target="_blank">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=FortressCommunity&repo=fortress-ws&theme=radical&border_radius=10"/>
+        </a>
+      </p>
+      <p align="center">WebSocket security toolkit — Go + Rust, gRPC bridge, threat scanning</p>
+    </td>
+    <td width="50%">
+      <h3 align="center">SubHost</h3>
+      <p align="center">
+        <a href="https://github.com/zulfff/SubHost-demo" target="_blank">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=zulfff&repo=SubHost-demo&theme=radical&border_radius=10"/>
+        </a>
+      </p>
+      <p align="center">Decentralized cloud infrastructure protocol in Rust</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3 align="center">envforge</h3>
+      <p align="center">
+        <a href="https://github.com/zulfff/envforge" target="_blank">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=zulfff&repo=envforge&theme=radical&border_radius=10"/>
+        </a>
+      </p>
+      <p align="center">Zero-dependency config manager with validation & hot reload</p>
+    </td>
+    <td width="50%">
+      <h3 align="center">Logic Collision Detector</h3>
+      <p align="center">
+        <a href="https://github.com/zulfff/Logic-Collision-Detector" target="_blank">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=zulfff&repo=Logic-Collision-Detector&theme=radical&border_radius=10"/>
+        </a>
+      </p>
+      <p align="center">Find hidden logic contradictions before they hit production</p>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 🐍 Contribution Snake
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/zulfff/zulfff/output/github-contribution-grid-snake-dark.svg"/>
+</p>
+
+---
+
+## 📫 Connect
+
+<p align="center">
+  <a href="mailto:arjunaajalahla100@gmail.com">
+    <img src="https://img.shields.io/badge/Email-arjunaajalahla100%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+  <a href="https://www.linkedin.com/in/muhammad-arya-arjuna-habibulah/">
+    <img src="https://img.shields.io/badge/LinkedIn-Muhammad%20Arya-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="https://twitter.com/XDevTools">
+    <img src="https://img.shields.io/badge/Twitter-%40pelioro-1DA1F2?style=for-the-badge&logo=x&logoColor=white"/>
+  </a>
+</p>
+
+---
 
 <div align="center">
-
-[![Twitter](https://img.shields.io/badge/Twitter-%40pelioro-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/XDevTools)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Muhammad%20Arya%20Arjuna%20Habibullah-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muhammad-arya-arjuna-habibulah/)
-[![Email](https://img.shields.io/badge/Email-Contact%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:arjunaajalahla100@gmail.com)
-
+  <img src="https://profile-counter.glitch.me/pelioro/count.svg"/>
+  <br/>
+  <sub><i>"If you like my work, star the repo."</i></sub>
 </div>
 
----
-
-<div align="center">
-
-**"Bug hunting is not just a hobby, it's a fucking lifestyle."**
-
-**If you like my shit, give it a fucking star!**
-
-</div>
-
----
-
-<div align="center">
-
-**Visitors - come look at this shit**
-
-![Visitor Count](https://profile-counter.glitch.me/pelioro/count.svg)
-
-</div>
-y
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%"/>
