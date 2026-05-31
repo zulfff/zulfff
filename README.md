@@ -152,7 +152,7 @@
 ---
 
 <div align="center">
-  <img src="https://profile-counter.glitch.me/pelioro/count.svg"/>
+  <img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fzulfff&label=visitors&countColor=%23263759&style=flat"/>
   <br/>
   <sub><i>"If you like my work, star the repo."</i></sub>
 </div>
