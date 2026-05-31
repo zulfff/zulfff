@@ -17,10 +17,12 @@
 |:----|:--------|:-----|:---------|
 | [CVE-2026-5188](https://nvd.nist.gov/vuln/detail/CVE-2026-5188) | wolfSSL X.509 SAN parser | Integer Underflow | 🟠 **8.1 High** |
 | [CVE-2026-3229](https://nvd.nist.gov/vuln/detail/CVE-2026-3229) | wolfSSL add_to_chain | Heap Buffer Overflow | 🟡 **5.5 Medium** |
+| [CVE-2026-44518](https://nvd.nist.gov/vuln/detail/CVE-2026-44518) | liboqs XMSS verify | OOB Read (CWE-125) | 🟡 **5.5 Medium** |
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-Patched%20by%20wolfSSL-brightgreen?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Status-Patched%20by%20wolfSSL%20%26%20liboqs-brightgreen?style=flat-square"/>
   <img src="https://img.shields.io/badge/CVEs-2026-blue?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Library-wolfSSL%20%7C%20liboqs-blueviolet?style=flat-square"/>
 </p>
 
 ---
