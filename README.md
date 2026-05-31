@@ -28,8 +28,8 @@
 ## 📊 GitHub Analytics
 
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=zulfff&show_icons=true&theme=radical&include_all_commits=true&count_private=true&border_radius=10"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=zulfff&layout=compact&langs_count=8&theme=radical&border_radius=10"/>
+  <img height="180em" src="https://grs.quantumly.dev/api?username=zulfff&show_icons=true&theme=radical&include_all_commits=true&count_private=true&border_radius=10"/>
+  <img height="180em" src="https://grs.quantumly.dev/api/top-langs/?username=zulfff&layout=compact&langs_count=8&theme=radical&border_radius=10"/>
 </p>
 
 <p align="center">
@@ -67,7 +67,7 @@
 ## 📊 Weekly Stats
 
 <p align="center">
-  <img width="95%" src="https://github-readme-stats.vercel.app/api/wakatime?username=zulfff&theme=radical&border_radius=10"/>
+  <img width="95%" src="https://grs.quantumly.dev/api/wakatime?username=zulfff&theme=radical&border_radius=10"/>
 </p>
 
 ---
@@ -88,7 +88,7 @@
       <h3 align="center">FortressWAF</h3>
       <p align="center">
         <a href="https://github.com/FortressCommunity/fortress-ws" target="_blank">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=FortressCommunity&repo=fortress-ws&theme=radical&border_radius=10"/>
+          <img src="https://grs.quantumly.dev/api/pin/?username=FortressCommunity&repo=fortress-ws&theme=radical&border_radius=10"/>
         </a>
       </p>
       <p align="center">WebSocket security toolkit — Go + Rust, gRPC bridge, threat scanning</p>
@@ -97,7 +97,7 @@
       <h3 align="center">SubHost</h3>
       <p align="center">
         <a href="https://github.com/zulfff/SubHost-demo" target="_blank">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=zulfff&repo=SubHost-demo&theme=radical&border_radius=10"/>
+          <img src="https://grs.quantumly.dev/api/pin/?username=zulfff&repo=SubHost-demo&theme=radical&border_radius=10"/>
         </a>
       </p>
       <p align="center">Decentralized cloud infrastructure protocol in Rust</p>
@@ -108,7 +108,7 @@
       <h3 align="center">envforge</h3>
       <p align="center">
         <a href="https://github.com/zulfff/envforge" target="_blank">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=zulfff&repo=envforge&theme=radical&border_radius=10"/>
+          <img src="https://grs.quantumly.dev/api/pin/?username=zulfff&repo=envforge&theme=radical&border_radius=10"/>
         </a>
       </p>
       <p align="center">Zero-dependency config manager with validation & hot reload</p>
@@ -117,7 +117,7 @@
       <h3 align="center">Logic Collision Detector</h3>
       <p align="center">
         <a href="https://github.com/zulfff/Logic-Collision-Detector" target="_blank">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=zulfff&repo=Logic-Collision-Detector&theme=radical&border_radius=10"/>
+          <img src="https://grs.quantumly.dev/api/pin/?username=zulfff&repo=Logic-Collision-Detector&theme=radical&border_radius=10"/>
         </a>
       </p>
       <p align="center">Find hidden logic contradictions before they hit production</p>
