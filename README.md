@@ -64,10 +64,18 @@
 
 ---
 
-## 🏅 Trophies
+## 📊 Weekly Stats
 
 <p align="center">
-  <img width="95%" src="https://github-profile-trophy.vercel.app/?username=zulfff&theme=radical&no-frame=true&no-bg=true&row=2&column=4"/>
+  <img width="95%" src="https://github-readme-stats.vercel.app/api/wakatime?username=zulfff&theme=radical&border_radius=10"/>
+</p>
+
+---
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Total%20Commits-calculated-blue?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Repos-20+-blue?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Languages-9-blue?style=flat-square"/>
 </p>
 
 ---
