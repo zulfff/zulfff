@@ -64,20 +64,6 @@
 
 ---
 
-## 📊 Weekly Stats
-
-<p align="center">
-  <img width="95%" src="https://denvercoder1-github-readme-stats.vercel.app/api/wakatime?username=zulfff&theme=radical&border_radius=10"/>
-</p>
-
----
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Total%20Commits-calculated-blue?style=flat-square"/>
-  <img src="https://img.shields.io/badge/Repos-20+-blue?style=flat-square"/>
-  <img src="https://img.shields.io/badge/Languages-9-blue?style=flat-square"/>
-</p>
-
 ---
 
 ## 🚀 Featured Projects
