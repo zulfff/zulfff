@@ -2,6 +2,8 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Muhammad%20Arya%20Arjuna%20Habibullah&fontSize=36&fontAlignY=35&animation=fadeIn&desc=Security%20Researcher%20•%20Bug%20Bounty%20Hunter%20•%20CVE%20Finder&descAlignY=55" width="100%"/>
 </div>
 
+[![XERJ Corpus Hub contributor](https://hub.xerj.org/contributors/zulfff/badge.svg)](https://hub.xerj.org/contributors/zulfff)
+
 <p align="center">
   <a href="https://hackerone.com/pelioro"><img src="https://img.shields.io/badge/HackerOne-pelioro-red?style=for-the-badge&logo=hackerone"/></a>
   <a href="https://bugcrowd.com/JustAKids"><img src="https://img.shields.io/badge/Bugcrowd-JustAKids-blue?style=for-the-badge&logo=bugcrowd"/></a>
