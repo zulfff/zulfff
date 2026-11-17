@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="180" viewBox="0 0 900 180" role="img" aria-label="muhammad arya arjuna habibullah — security researcher, bug bounty, cve hunter">
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0e1218"/>
+      <stop offset="1" stop-color="#0a0c10"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="1" y="1" width="898" height="178" rx="14" ry="14" fill="url(#card)" stroke="#232a35" stroke-width="1.5"/>
+
+  <circle cx="28" cy="26" r="5.5" fill="#ff5f57"/>
+  <circle cx="48" cy="26" r="5.5" fill="#febc2e"/>
+  <circle cx="68" cy="26" r="5.5" fill="#28c840"/>
+
+  <text x="450" y="30" text-anchor="middle" font-family='ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace' font-size="11.5" fill="#5c6675" letter-spacing="0.6">zulfff@github</text>
+
+  <line x1="1.5" y1="48" x2="898.5" y2="48" stroke="#1b2230" stroke-width="1"/>
+
+  <text x="30" y="74" font-family='ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace' font-size="12.5" fill="#7d8590" letter-spacing="0.2"><tspan fill="#8b949e">arya</tspan><tspan fill="#4a5568">@</tspan><tspan fill="#8b949e">zulfff</tspan><tspan fill="#4a5568"> ~ $ </tspan><tspan fill="#c9d1d9">whoami</tspan></text>
+
+  <circle cx="801" cy="70" r="3.5" fill="#3fb950"/>
+  <text x="811" y="74" font-family='ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace' font-size="10.5" fill="#3fb950" letter-spacing="0.4">available</text>
+
+  <text x="30" y="116" font-family='ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace' font-size="30" font-weight="700" fill="#e6edf3" textLength="540" lengthAdjust="spacing">muhammad arya arjuna habibullah</text>
+  <rect x="582" y="95" width="11" height="23" rx="2" fill="#58a6ff"/>
+
+  <text x="30" y="151" font-family='ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace' font-size="14.5" fill="#4d9dff" textLength="409" lengthAdjust="spacing">/ security research / bug bounty / cve hunter</text>
+  <rect x="449" y="138" width="8" height="16" rx="2" fill="#58a6ff"/>
+</svg>
